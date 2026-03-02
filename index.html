@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desi Video Hub - Trending Videos</title>
+
+<meta name="description" content="Watch trending desi videos online. Updated daily with new content.">
+<meta name="keywords" content="desi videos, trending videos, online video hub">
+<meta name="robots" content="index, follow">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
+
+header {
+    background: #111;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 800;
+    color: #ff3c3c;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 40px;
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.footer {
+    background: #111;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Desi Video Hub</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Categories</a>
+        <a href="#">Trending</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Trending Desi Videos</h1>
+    <div class="search-bar">
+        <input type="text" placeholder="Search videos...">
+    </div>
+</section>
+
+<!-- AD CODE AREA -->
+<div style="text-align:center; margin:20px;">
+    <!-- Paste Clickadu Ad Code Here -->
+</div>
+
+<section class="grid">
+
+    <div class="card">
+        <img src="thumbnail1.jpg" alt="Video Thumbnail">
+        <div class="card-content">
+            <h3>Trending Video Title 1</h3>
+            <p>Category: Desi</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="thumbnail2.jpg" alt="Video Thumbnail">
+        <div class="card-content">
+            <h3>Trending Video Title 2</h3>
+            <p>Category: Indian</p>
+        </div>
+    </div>
+
+</section>
+
+<section style="padding:30px;">
+    <h2>Watch Now</h2>
+    <iframe 
+        width="100%" 
+        height="500" 
+        src="VIDEO_EMBED_LINK" 
+        frameborder="0" 
+        allowfullscreen>
+    </iframe>
+</section>
+
+<div class="footer">
+    <p>18+ Only | All models are 18+ | DMCA Policy | Privacy Policy</p>
+</div>
+
+</body>
+</html>
